@@ -3,6 +3,9 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
     "deploy": "tgcloud push",
     "migrate": "tgcloud migrate",
     "run": "tgcloud run",
@@ -10,7 +13,15 @@
     "diff": "tgcloud diff",
     "login": "tgcloud login"
   },
+  "dependencies": {
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  },
   "devDependencies": {
-    "@tgcloud/cli": "latest"
+    "@tgcloud/cli": "latest",
+    "@types/node": "26.6.6",
+    "@types/react": "19.3.0",
+    "typescript": "7.0.2"
   }
 }
