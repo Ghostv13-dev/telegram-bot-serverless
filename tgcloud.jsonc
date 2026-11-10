@@ -1,0 +1,5 @@
+{
+  "name": "reusable-telegram-bot-template",
+  "description": "A small persistent Telegram bot template for Telegram Serverless",
+  "runtime": "serverless"
+}
