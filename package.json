@@ -1,0 +1,16 @@
+{
+  "name": "reusable-telegram-bot-template",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "deploy": "tgcloud push",
+    "migrate": "tgcloud migrate",
+    "run": "tgcloud run",
+    "status": "tgcloud status",
+    "diff": "tgcloud diff",
+    "login": "tgcloud login"
+  },
+  "devDependencies": {
+    "@tgcloud/cli": "latest"
+  }
+}
